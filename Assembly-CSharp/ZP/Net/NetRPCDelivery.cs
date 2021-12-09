@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace ZP.Net
+{
+	// Token: 0x02000619 RID: 1561
+	public enum NetRPCDelivery
+	{
+		// Token: 0x04002B94 RID: 11156
+		UNRELIABLE,
+		// Token: 0x04002B95 RID: 11157
+		UNRELIABLE_SEQUENCED,
+		// Token: 0x04002B96 RID: 11158
+		RELIABLE_UNORDERED,
+		// Token: 0x04002B97 RID: 11159
+		RELIABLE_SEQUENCED,
+		// Token: 0x04002B98 RID: 11160
+		RELIABLE_ORDERED
+	}
+}
